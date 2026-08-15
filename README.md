@@ -189,13 +189,53 @@ Recommended production additions include Playwright navigation/form tests, SSE d
 
 ## Screenshots
 
-Add release screenshots under `docs/screenshots/`:
+### Operational Overview
 
-- Overview and agent fleet
-- Ask Command Center execution
-- Trace explorer and replay
-- Workflow builder
-- Incident diagnostic
+<p align="center">
+  <img src="docs/screenshots/overview.png" width="100%" alt="AI Command Center operational overview">
+</p>
+
+Monitor agent activity, running tasks, success rates, latency, token usage, estimated cost, and system health.
+
+---
+
+### Intelligent Orchestration
+
+<p align="center">
+  <img src="docs/screenshots/command-center.png" width="100%" alt="Ask Command Center">
+</p>
+
+Submit a high-level objective and observe the execution pipeline from intent detection through planning, agents, tools, reasoning, and verification.
+
+---
+
+### Visual Workflow Builder
+
+<p align="center">
+  <img src="docs/screenshots/workflow-builder.png" width="100%" alt="AI Command Center workflow builder">
+</p>
+
+Create and execute observable agent workflows using configurable nodes.
+
+---
+
+### Trace Explorer
+
+<p align="center">
+  <img src="docs/screenshots/trace-explorer.png" width="100%" alt="AI Command Center trace explorer">
+</p>
+
+Inspect execution graphs, model calls, tool calls, inputs, outputs, duration, tokens, retries, and replayable execution history.
+
+---
+
+### Evaluation Center
+
+<p align="center">
+  <img src="docs/screenshots/evaluation-center.png" width="100%" alt="AI Command Center evaluation center">
+</p>
+
+Evaluate agents against reproducible datasets using task success, faithfulness, retrieval quality, hallucination rate, and evaluation cost.
 
 ## Demo video
 
