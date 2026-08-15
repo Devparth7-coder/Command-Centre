@@ -1,0 +1,9 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+pydantic==2.11.7
+# Production adapters (optional in deterministic local demo mode)
+asyncpg==0.30.0
+redis==6.2.0
+qdrant-client==1.14.3
+opentelemetry-api==1.34.1
+opentelemetry-sdk==1.34.1

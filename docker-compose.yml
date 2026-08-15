@@ -1,0 +1,25 @@
+services:
+  frontend:
+    build: ./frontend
+    ports: ["3000:3000"]
+    environment: ["BACKEND_URL=http://backend:8000"]
+    depends_on: [backend]
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    env_file: [.env]
+    volumes: ["./backend:/app"]
+    depends_on: [postgres, redis, qdrant]
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: command
+      POSTGRES_PASSWORD: center
+      POSTGRES_DB: command_center
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+  redis:
+    image: redis:7-alpine
+  qdrant:
+    image: qdrant/qdrant:v1.14.0
+    volumes: ["qdrant:/qdrant/storage"]
+volumes: {pgdata: {}, qdrant: {}}
