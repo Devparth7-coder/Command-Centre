@@ -192,7 +192,7 @@ Recommended production additions include Playwright navigation/form tests, SSE d
 ### Operational Overview
 
 <p align="center">
-  <img src="docs/screenshots/overview.png" width="100%" alt="AI Command Center operational overview">
+  <img src="docs/overview.png" width="100%" alt="AI Command Center operational overview">
 </p>
 
 Monitor agent activity, running tasks, success rates, latency, token usage, estimated cost, and system health.
@@ -202,7 +202,7 @@ Monitor agent activity, running tasks, success rates, latency, token usage, esti
 ### Intelligent Orchestration
 
 <p align="center">
-  <img src="docs/screenshots/command-center.png" width="100%" alt="Ask Command Center">
+  <img src="docs/command-center.png" width="100%" alt="Ask Command Center">
 </p>
 
 Submit a high-level objective and observe the execution pipeline from intent detection through planning, agents, tools, reasoning, and verification.
@@ -212,7 +212,7 @@ Submit a high-level objective and observe the execution pipeline from intent det
 ### Visual Workflow Builder
 
 <p align="center">
-  <img src="docs/screenshots/workflow-builder.png" width="100%" alt="AI Command Center workflow builder">
+  <img src="docs/workflow-builder.png" width="100%" alt="AI Command Center workflow builder">
 </p>
 
 Create and execute observable agent workflows using configurable nodes.
@@ -222,7 +222,7 @@ Create and execute observable agent workflows using configurable nodes.
 ### Trace Explorer
 
 <p align="center">
-  <img src="docs/screenshots/trace-explorer.png" width="100%" alt="AI Command Center trace explorer">
+  <img src="docs/trace-explorer.png" width="100%" alt="AI Command Center trace explorer">
 </p>
 
 Inspect execution graphs, model calls, tool calls, inputs, outputs, duration, tokens, retries, and replayable execution history.
@@ -232,7 +232,7 @@ Inspect execution graphs, model calls, tool calls, inputs, outputs, duration, to
 ### Evaluation Center
 
 <p align="center">
-  <img src="docs/screenshots/evaluation-center.png" width="100%" alt="AI Command Center evaluation center">
+  <img src="docs/evaluation-center.png" width="100%" alt="AI Command Center evaluation center">
 </p>
 
 Evaluate agents against reproducible datasets using task success, faithfulness, retrieval quality, hallucination rate, and evaluation cost.
