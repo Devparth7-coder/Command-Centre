@@ -222,4 +222,4 @@ Record a 90-second walkthrough: command palette → demo execution → trace ins
 
 ## License
 
-Apache-2.0. Add a `LICENSE` file before public distribution.
+
